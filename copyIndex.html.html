@@ -10,10 +10,13 @@
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     
         <!-- Additional CSS must be placed after Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">
         <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
-        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="css/copy_styles.css" />
         <title>NuCamp: A Better Way To Camp</title>
     </head>
 
@@ -30,9 +33,9 @@
                     <h2>a better way to camp</h2>
                 </div>
                 <div class="col-4 col-md-4 col-xl-2 mt-4">
-                <span>
-                   <a role="button" class="btn btn-info btn-lg text-white" data-toggle="modal" data-target="#reserveModal" >Reserve Campsite</a>
-                </span>   
+                    <span>
+                        <button type="button" class="btn btn-info btn-lg text-white" data-toggle="modal" data-target="#reserveModal" >Reserve Campsite <i class="fas fa-campground fa-md"></i></button>
+                     </span>    
                 </div>
             </div>
         </div>
@@ -188,7 +191,6 @@
                     </div>
                 </div>
             </div>
-            
             <div class="modal fade bd-example-modal-lg" id="reserveModal" tabindex="-1" role="dialog" aria-labelledby="reserveModal" aria-hiden="true">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
@@ -213,14 +215,15 @@
                                     </div>
                                 </dl>
                                 <dl class="row form-group">
-                                    <label for="date" class="col-sm-6 col-form-label">Date</label>
-                                    <div class="col-sm-6">
-                                    <input type="date" placeholder="MM/DD/YYYY" class="form-control">
+                                    <label for="date" class=" col-sm-6 col-form-label">Date</label>
+                                     <div class="col-sm-6">
+                                        <input type="date" placeholder="MM/DD/YYYY" class="form-control">
                                     </div>
-                                </dl>
+                                 </dl>
                                 <dl class="row form-group">
-                                        <label for="siteType" class="col-sm-6 col-form-label">Campsite Type</label>
-                                        <div class="col-sm-6 btn-group btn-group-toggle" data-toggle="buttons">
+                                    <div class="btn-group btn-group-toggle" data-target="siteType" data-toggle="buttons">
+                                        <label for="siteType" class=" col-sm-6 col-form-label">Campsite Type</label>
+                                        <div class="col-sm-6">
                                              <label class="btn btn-success active">
                                                 <input type="radio"  name="siteType" id="siteTent" autocomplete="off" checked>Tent
                                              </label>
@@ -228,6 +231,7 @@
                                                 <input type="radio" name="siteType" id="siteRv" autocomplete="off">RV
                                             </label>
                                         </div>
+                                    </div>
                                 </dl>
                                 <dl class="row form-group">
                                     <div class="col-sm-6 col-form-label">
@@ -273,12 +277,11 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
 
-   <!--<script>
-        $(function() {
-           $().button('toggle')
-        })
-    </script>-->
+    <script>
+        $().button('toggle')
+    </script>
 
 </body>
 

@@ -1,0 +1,55 @@
+<div id="reserveModal" class="modal fade" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Login</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+
+
+
+                    <div class=" row row-content align-items-center">
+                <div class="col-sm-6 mx-auto">
+                    <div id="reserveModal" class="modal fade" role="dialog">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <h3 class="modal-header bg-success text-white">Reserve a Campsite</h3>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                                <div class="modal-body">
+                                    <div class="container-fluid">
+                                        <dl class="row form-group" id="reserveForm">
+                                            <label for="numCampers" class="col-sm col-form-label">Number of Campers</label>
+                                            <div class="col-sm modal-lg">
+                                            <select class="form-control" id="numCampers">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                                <option>6</option>
+                                            </select>
+                                            </div>
+                                        </dl>
+                                        <dl class="row form-group">
+                                            <label for="date" class=" col-sm-6 col-form-label">Date</label>
+                                            <div class="col-sm-6">
+                                            <input type="date" placeholder="MM/DD/YYYY" class="form-control">
+                                            </div>
+                                        </dl>
+                                        <dl class="row form-group">
+                                            <div class="col-sm-6 col-form-label">
+                                                <button class="btn btn-secondary" type="submit">Cancel</button>
+                                                <button class="btn btn-success" type="submit">Search</button>
+                                            </div>
+                                        </dl>
+                                    </div>
+                                </div>
+                            </div>     
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
