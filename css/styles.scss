@@ -1,4 +1,4 @@
-$color-primary: #3046C5;
+$color-primary: orange;
 $color-secondary: #5637dd;
 $color-pale: #CEC8FF;
 $color-mid: #901CAD;
@@ -46,12 +46,6 @@ header {
 .navbar {
     background-color: $color-mid;
 }
-
-/*.tab-content {
-    border: 1px solid #DDD;
-    border-top: none;
-    padding: 10px;
-}*/
 
 .carousel-caption {
     background-color: $color-black-transparent;
