@@ -38,3 +38,6 @@ header h2 {
   position: absolute;
   right: 0;
   bottom: 0; }
+
+#loginModal modal-header {
+  background-color: white; }
