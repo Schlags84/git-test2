@@ -9,8 +9,8 @@ $( document).ready(function() {
 });
 
 $(".reserveButton").on("click", function(){
-    $(".popup, .reserveModal").addClass("active");
+    $(".modal, .reserveModal").addClass("active");
     });
     $(".reserveButton").on("click", function(){
-        $(".popup, .reserveModal").removeClass("active");
+        $(".modal, .reserveModal").removeClass("active");
         });
