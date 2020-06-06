@@ -26,7 +26,7 @@ header h2 {
   min-height: 200px; }
 
 .navbar {
-  background-color: white; }
+  background-color: #901CAD; }
 
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5); }
@@ -39,11 +39,10 @@ header h2 {
   right: 0;
   bottom: 0; }
 
-/*#loginModal modal-header {
-  background-color: white;
+#loginModal modal-header {
+  background-color: #901CAD;
   color: white; }
 
 #reserveModal modal-header {
   background-color: #17A2B8;
-  color: white; }*/
-
+  color: white; }
