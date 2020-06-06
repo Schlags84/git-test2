@@ -39,5 +39,12 @@ header h2 {
   right: 0;
   bottom: 0; }
 
-#loginModal modal-header {
-  background-color: white; }
+#loginMH {
+  background-color: #901CAD;
+  color: white; }
+
+#reserveButton {
+  background-color: #17A2B8 ;
+  color: white;
+
+}
