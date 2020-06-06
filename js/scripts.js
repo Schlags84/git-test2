@@ -8,9 +8,42 @@ $( document).ready(function() {
     });
 });
 
-$(".reserveButton").on("click", function(){
-    $(".modal, .reserveModal").addClass("active");
-    });
-    $(".reserveButton").on("click", function(){
-        $(".modal, .reserveModal").removeClass("active");
-        });
+$(document).ready(function(){
+    var show_btn=$('.show-modal');
+    var show_btn=$('.show-modal');
+    //$("#testmodal").modal('show');
+    
+      show_btn.click(function(){
+        $("#reserveModal").modal('show');
+    })
+  });
+  
+  $(function() {
+          $('#reserveButton').on('click', function( e ) {
+              Custombox.open({
+                  target: '#reserveModal-1',
+                  effect: 'fadein'
+              });
+              e.preventDefault();
+          });
+      });
+
+      $(document).ready(function(){
+        var show_btn=$('.show-modal-2');
+        var show_btn=$('.show-modal-2');
+        //$("#testmodal").modal('show');
+        
+          show_btn.click(function(){
+            $("#loginModal").modal('show');
+        })
+      });
+      
+      $(function() {
+              $('#loginButton').on('click', function( e ) {
+                  Custombox.open({
+                      target: '#reserveloginModal-1',
+                      effect: 'fadein'
+                  });
+                  e.preventDefault();
+              });
+          });
