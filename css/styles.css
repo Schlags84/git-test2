@@ -39,10 +39,10 @@ header h2 {
   right: 0;
   bottom: 0; }
 
-#loginModal modal-header {
+#loginModal .modal-title {
   background-color: #901CAD;
   color: white; }
 
-#reserveModal modal-header {
+#reserveModal .modal-title {
   background-color: #17A2B8;
   color: white; }
